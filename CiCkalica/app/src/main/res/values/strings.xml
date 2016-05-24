@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CiCkalica</string>
+    <string name="title_activity_cc_modul">cc_modul</string>
+    <string name="title_activity_ijeje_modul">ijeje_modul</string>
+    <string name="title_activity_score">score</string>
+    <string name="title_activity_game_result">game_result</string>
 </resources>
