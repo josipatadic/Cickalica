@@ -40,7 +40,8 @@
         android:id="@+id/gameScoreTxt"
         android:layout_below="@+id/scoreTxt"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="43dp" />
+        android:layout_marginTop="43dp"
+        android:textSize="18dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,7 +50,8 @@
         android:id="@+id/rijecTxt"
         android:layout_below="@+id/gameScoreTxt"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="40dp"
+        android:textSize="35dp" />
 
     <Button
         android:layout_width="wrap_content"
