@@ -35,22 +35,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="gameScoreTxt"
-        android:id="@+id/gameScoreTxt"
-        android:layout_below="@+id/scoreTxt"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="rijecTxt"
         android:id="@+id/rijecTxt"
-        android:layout_below="@+id/gameScoreTxt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
-        android:textSize="35dp" />
+        android:textSize="35dp"
+        android:layout_below="@+id/scoreTxt" />
 
     <Button
         android:layout_width="wrap_content"
@@ -78,4 +68,15 @@
         android:layout_below="@+id/ČTxt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="69dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:indeterminate="false"
+        android:layout_below="@+id/scoreTxt"
+        android:layout_alignLeft="@+id/rijecTxt"
+        android:layout_alignStart="@+id/rijecTxt"
+        android:layout_toLeftOf="@+id/ĆTxt"
+        android:layout_toStartOf="@+id/ĆTxt" />
 </RelativeLayout>
